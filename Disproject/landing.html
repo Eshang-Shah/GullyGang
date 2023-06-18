@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gully Gang</title>
+    <link rel="icon" href="whiteBgLogo.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Poppins&display=swap" rel="stylesheet">
+    <script>
+        
+    </script>
+    <style>
+        
+        body::-webkit-scrollbar {
+            display: none;
+        }
+        body{
+            background-color: #1E1E1E;
+        }
+        *{
+            box-sizing: border-box;
+            /* overflow: hidden; */
+        }
+        /* header{
+            position:relative
+            
+            /* border: 2px solid red; */
+        .head{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid red; */
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+        }
+        .mid{
+            
+            /* overflow: auto; */
+            /* width: 40rem; */
+            margin: auto;
+            text-align: left;
+            position: relative;
+            width: 521.13px;
+            /* height: 18.13px; */
+            /* left: 361px; */
+            /* top: 41px;           */
+            /* display: flex; */
+            justify-content: center;
+            
+            display: flex;
+            align-items: flex-start;
+            /* border: 2px solid red; */
+            /* align-self: center; */
+            
+            
+            /* background-color: #1E1E1E; */
+            border-radius: 64px;
+            filter: brightness(1.5);
+            /* border: 2px solid red; */
+            
+        }
+        /* nav{
+            align-self: center;
+        } */
+       
+        nav ul{
+            /* position: fixed; */
+            color: #8A8887;
+            font-family:'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 13px;
+            list-style: none;
+            margin-left: -130px;
+            /* margin: auto; */
+            
+        }
+        ul li{
+            /* position: fixed; */
+            margin-right: 32px;
+            float: left;
+            padding-right: -4px;
+            position: relative;
+            left: 63px;
+            margin-bottom: 4px;
+            bottom: 6px;
+            padding-left: -5px;
+            
+            
+
+        }
+        li a{
+            text-decoration: none;
+            color: #8A8887;
+        }
+        a:hover{
+            /* color:black; */
+            /* background-color: rgb(223, 95, 56); */
+            /* filter:drop-shadow(2px 9px 6px black); */
+            border-bottom: 1px solid #8A8887;
+            padding: 3px;
+            /* border-radius: 11px; */
+
+        }
+        .left{
+            align-self: center;
+            justify-content: center;
+            color: #8A8887;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px;
+            text-transform: uppercase;
+            width: 137.13px;
+            height: 18.13px;
+            text-align: end;
+        }
+        .right{
+            justify-content: center;
+            align-self: center;
+            color: #8A8887;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px;
+            text-transform: uppercase;
+            width: 137.13px;
+            height: 18.13px;
+        }
+        .tag{
+            /* border: 2px solid red; */
+            position:absolute;
+            top:105px;
+            left:63px;
+
+        }
+        #t1{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            position: relative;
+            top: 31px;
+        
+        
+/* identical to box height */
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+
+        }
+        .t2{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 59px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+
+        }
+        .t3{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            position: relative;
+            bottom: 32px;
+/* or 175% */
+
+            text-transform: capitalize;
+
+            color: #B3B3B3;
+
+        }
+        .tag button{
+            background: none;
+            border: 1px solid #DE5D56;
+            color: #FFFFFF;
+
+            width: 160px;
+            height: 33.57px;
+            border-radius: 7px;
+            position: relative;
+            bottom: 10px;
+        }
+        .tag button:hover{
+            background-color: #DE5D56;
+            /* border: 5px solid #DE5D56;
+            box-shadow: -4px -3px 23px -10px rgba(235, 71, 44, 0.21), 10px 10px 32px rgba(219, 123, 88, 0.14); */
+        }
+
+        .hola{
+            width: 885px;
+            height: 627px;
+            position: absolute;
+            right:0px;
+            top:0px;
+            z-index: -1;
+        }
+        .overlay{
+            position: absolute;
+            width: 430px;
+            height: 337px;
+            left: 593px;
+            top: 161px;
+            /* border: 2px solid red; */
+            z-index: 2;
+        }
+        .cards{
+            position: absolute;
+            width:265px;
+            height: 189px;
+            left: 62px;
+            top: 585px;
+            bbackground: #1E1E1E;
+            box-shadow: -4px -3px 23px -10px rgba(235, 71, 44, 0.21), 10px 10px 32px rgba(219, 123, 88, 0.14);
+            border-radius: 20px;
+            transform: matrix(1, 0, 0, -1, 0, 0);
+        }
+        /* .cards2:hover{
+            box-shadow: none;
+        } */
+        .cards1{
+            position: absolute;
+            width: 265px;
+            height: 189px;
+            left: 365px;
+            top: 585px;
+            background: #1E1E1E;
+            box-shadow: -4px -3px 23px -10px #3B4EBA, 10px 10px 32px -16px #6B436F;
+            border-radius: 20px;
+            transform: matrix(1, 0, 0, -1, 0, 0);
+        }
+        .cards2{
+            position: absolute;
+            width: 265px;
+            height: 189px;
+            left: 673px;
+            top: 585px;
+
+            background: #1E1E1E;
+            box-shadow: -4px -3px 23px -10px rgba(235, 71, 44, 0.21), 10px 10px 32px rgba(219, 123, 88, 0.14);
+            border-radius: 20px;
+            transform: matrix(1, 0, 0, -1, 0, 0);
+
+        }
+        .cards3{
+            position: absolute;
+            width: 265px;
+            height: 189px;
+            left: 980px;
+            top: 585px;
+
+            background: #1E1E1E;
+            box-shadow: -4px -3px 23px -10px rgba(34, 9, 9, 0.55), 10px 10px 24px rgba(234, 142, 0, 0.15);
+            border-radius: 20px;
+            transform: matrix(1, 0, 0, -1, 0, 0);
+
+        }
+        .ft{
+            position: absolute;
+            width: 383px;
+            height: 303px;
+            left: 78px;
+            top: 535px;
+        }
+        .cr{
+            position: absolute;
+            width: 368px;
+            height: 260px;
+            left: 335px;
+            top: 513px;
+        }
+        .ba{
+            position: absolute;
+            width: 186px;
+            height: 260px;
+            left: 794px;
+            top: 513px;
+        }
+        .bb{
+            position: absolute;
+            width: 368px;
+            height: 260px;
+            left: 999px;
+            top: 540px;
+        }
+        /* .text{
+            position: absolute;
+            top:1200px
+        } */
+        .foot p{
+            position: absolute;
+            width: 80px;
+            height: 17px;
+            left: 87px;
+            top: 612px;
+
+            font-family: 'Montserrat', sans-serif;
+            font-style:normal;
+            font-weight:600;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+            text-align: center;
+            text-transform: uppercase;
+
+            background: linear-gradient(87.12deg, #DC5664 52.47%, #EEB522 127.74%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+
+            text-shadow: 6px 2px 15px rgba(224, 146, 36, 0.15);
+        }
+        .cric p{
+            position: absolute;
+            width: 64px;
+            height: 17px;
+            left: 381px;
+            top: 612px;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+            text-align: center;
+            text-transform: uppercase;
+
+            background: linear-gradient(87.12deg, #3350C8 -3.44%, #264EC4 -3.43%, #64467B 98.62%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+
+            text-shadow: 6px 2px 15px rgba(224, 146, 36, 0.15);
+
+        }
+        .bad p{
+            position: absolute;
+            width: 96px;
+            height: 19px;
+            left: 691px;
+            top: 612px;
+            /* z-index: 5; */
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            /* identical to box height */
+
+            text-align: center;
+            text-transform: uppercase;
+
+            background: linear-gradient(87.12deg, #F1452D -3.44%, #DD815F 74.85%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+
+            text-shadow: 6px 2px 15px rgba(224, 146, 36, 0.15);
+        }
+       
+        .basket p{
+            position: absolute;
+            width: 96px;
+            height: 19px;
+            left: 1005px;
+            top: 612px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            /* identical to box height */
+
+            text-align: center;
+            text-transform: uppercase;
+
+            background: linear-gradient(87.12deg, #F4BE20 -3.44%, #BB4029 127.74%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+
+            text-shadow: 6px 2px 15px rgba(224, 146, 36, 0.15);
+
+            
+
+        }
+        .about{
+            width: 1206px;
+            position: absolute;
+            height: 430px;
+            
+            left: 63px;
+            top:1004px;
+        }
+        .fill{
+            position: absolute;
+            width: 605px;
+            height: 430px;
+            left: 0px;
+            top: 0px;
+            /* background: #343434;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+            /* border-radius: 25px; */
+
+   
+        }
+        #ph{
+            position: absolute;
+            width: 484px;
+            height: 44px;
+            left: 665px;
+            top:-15px;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            /* identical to box height */
+
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+
+            /* border: 1px solid #000000; */
+        }
+        #txt{
+            position: absolute;
+            width: 532px;
+            height: 140px;
+            left: 665px;
+            top: 82px;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 28px;
+            /* or 140% */
+
+            text-transform: capitalize;
+
+            color: #CBCBCB;
+        }
+        
+    
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="left">
+            GULLY GANG
+        </div>
+        <div class="mid">
+            <nav>
+                <ul>
+                    <li><a href="" >ABOUT US</a></li>
+                    <li><a href="admin.html">TEAMS</a></li>
+                    <li><a href="">GROUNDS</a></li>
+                    <li><a href="">MERCAHNDISE</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div class="right">
+            SIGN IN
+        </div>
+
+    </div>
+    <span class="tag">
+        <p id="t1">
+            WE PLAY TO WIN
+
+        </p>
+        <p class="t2">
+            SOME RANDOM
+            <br>
+            TAGLINE
+            
+        </p>
+        <p class="t3">
+            Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Consequatur est inventore perferendis.
+            
+
+        </p>
+        <button>JOIN US NOW</button>
+
+
+    </span>
+    <span class="img">
+        <img class="hola" src="land.png" alt="">
+    </span>
+    <div class="img">
+        <img class="overlay" src="football.png" alt="">
+    </div>
+    <div class="cards">
+
+        
+    </div>
+    <div class="cards1">
+        
+        
+        
+
+    </div>
+    <div class="cards2">
+        
+
+    </div>
+    <div class="cards3">
+
+    </div>
+    <div class="cric">
+        <img class="cr" src="Cricket.png" alt="">
+        <p>CRICKET</p>
+
+    </div>
+    <div class="basket">
+        <img class="bb" src="basketball.png" alt="">
+        <p>BASKETBALL</p>
+
+    </div>
+    <div class="bad">
+        <img class="ba" src="Badminton.png" alt="">
+        <p>BADMINTON</p>
+
+    </div>
+    <div class="foot">
+        <img class="ft" src="football.png" alt="">
+        <p>FOOTBALL</p>
+
+    </div>
+    <!-- <div class="text">
+        <h3>HELLO</h3>
+    </div> -->
+    <div class="about">
+        <img class="fill" src="Frame 12.png" alt="">
+        <div class="para">
+            <p id="ph">ABOUT GULLY <span style="color:#DC5664">GANG</span></p>
+            
+            <p id="txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Dignissim maecenas fermentum, amet sagittis.<br> Amet, ipsum amet, turpis ullamcorper iaculis<br> pellentesque at blandit. Dolor scelerisque at neque,<br> lacus ut bibendum. In velit venenatis,
+
+            </p>
+            <div class="flec">
+
+                
+            </div>
+
+
+        </div>
+    </div>
+        
+
+    
+    
+</body>
+</html>
